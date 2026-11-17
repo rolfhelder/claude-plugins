@@ -24,7 +24,9 @@ From a shell, use `claude plugin marketplace add …` and `claude plugin install
 | [keepalive](https://github.com/rolfhelder/claude-keepalive) | Keeps an idle session's prompt cache warm with one ping before it expires. Off by default. | any |
 | [monitor](https://github.com/rolfhelder/claude-monitor) | RAM/CPU recorder with a live line in Claude Code and local logs for looking back at memory spikes. | macOS |
 
-![keepalive and monitor above the prompt](https://raw.githubusercontent.com/rolfhelder/claude-monitor/main/assets/above-prompt.png)
+![keepalive above the prompt](https://raw.githubusercontent.com/rolfhelder/claude-keepalive/main/assets/keepalive-above-prompt.png)
+
+![monitor above the prompt](https://raw.githubusercontent.com/rolfhelder/claude-monitor/main/assets/monitor-above-prompt.png)
 
 ## Issues
 
