@@ -24,9 +24,30 @@ From a shell, use `claude plugin marketplace add …` and `claude plugin install
 | [keepalive](https://github.com/rolfhelder/claude-keepalive) | Keeps an idle session's prompt cache warm with one ping before it expires. Off by default. | any |
 | [monitor](https://github.com/rolfhelder/claude-monitor) | RAM/CPU recorder with a live line in Claude Code and local logs for looking back at memory spikes. | macOS |
 
-![keepalive above the prompt](https://raw.githubusercontent.com/rolfhelder/claude-keepalive/main/assets/keepalive-above-prompt.png)
+### keepalive
 
-![monitor above the prompt](https://raw.githubusercontent.com/rolfhelder/claude-monitor/main/assets/monitor-above-prompt.png)
+When you stop typing, the prompt cache expires and your next message pays to rebuild it. keepalive sends one short ping just before that, only during your working hours. Off by default.
+
+- `/keepalive` turns it on for this session, `/keepalive off` turns it off.
+- `/keepalive setup 9 17 1-5` sets working hours and days; `/keepalive margin 5` sets how early the ping goes.
+- `/keepalive view` moves the line between above the prompt and the status line.
+- `/keepalive on --global` makes it the default for new sessions.
+
+[![keepalive tutorial](assets/keepalive-tutorial.png)](assets/keepalive-tutorial.mp4)
+
+Video tutorial (56 s). Click the image to open it. Full docs: [claude-keepalive](https://github.com/rolfhelder/claude-keepalive).
+
+### monitor
+
+A small background agent samples RAM, cache, swap and CPU every five seconds. Claude Code shows a live line, and the logs stay on your Mac for fourteen days. macOS only.
+
+- `/monitor` shows the live line.
+- `/monitor view` moves it into the status line and back.
+- `/monitor report 30m` finds the worst moment in a time window: peak RAM, peak CPU, the apps using the most memory, and pressure alerts.
+
+[![monitor tutorial](assets/monitor-tutorial.png)](assets/monitor-tutorial.mp4)
+
+Video tutorial (57 s). Click the image to open it. Full docs: [claude-monitor](https://github.com/rolfhelder/claude-monitor).
 
 ## Issues
 
