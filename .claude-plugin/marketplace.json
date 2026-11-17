@@ -1,0 +1,23 @@
+{
+  "name": "rolfhelder",
+  "owner": { "name": "rolfhelder" },
+  "description": "Claude Code plugins by rolfhelder.",
+  "plugins": [
+    {
+      "name": "keepalive",
+      "description": "Keeps an idle session's prompt cache warm with one ping before it expires. Off by default.",
+      "source": { "source": "github", "repo": "rolfhelder/claude-keepalive" },
+      "homepage": "https://github.com/rolfhelder/claude-keepalive",
+      "license": "MIT",
+      "keywords": ["prompt-cache", "statusline"]
+    },
+    {
+      "name": "monitor",
+      "description": "macOS RAM/CPU recorder with a live line in Claude Code and local logs.",
+      "source": { "source": "github", "repo": "rolfhelder/claude-monitor" },
+      "homepage": "https://github.com/rolfhelder/claude-monitor",
+      "license": "MIT",
+      "keywords": ["macos", "memory", "cpu", "statusline"]
+    }
+  ]
+}
