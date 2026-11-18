@@ -33,9 +33,9 @@ When you stop typing, the prompt cache expires and your next message pays to reb
 - `/keepalive view` moves the line between above the prompt and the status line.
 - `/keepalive on --global` makes it the default for new sessions.
 
-[![keepalive tutorial](assets/keepalive-tutorial.png)](assets/keepalive-tutorial.mp4)
+<video src="assets/keepalive-tutorial.mp4" poster="assets/keepalive-tutorial.png" controls width="100%"></video>
 
-Video tutorial (56 s). Click the image to open it. Full docs: [claude-keepalive](https://github.com/rolfhelder/claude-keepalive).
+Video tutorial (56 s). [Download the video](assets/keepalive-tutorial.mp4) if it doesn't play inline. Full docs: [claude-keepalive](https://github.com/rolfhelder/claude-keepalive).
 
 ### monitor
 
@@ -45,9 +45,9 @@ A small background agent samples RAM, cache, swap and CPU every five seconds. Cl
 - `/monitor view` moves it into the status line and back.
 - `/monitor report 30m` finds the worst moment in a time window: peak RAM, peak CPU, the apps using the most memory, and pressure alerts.
 
-[![monitor tutorial](assets/monitor-tutorial.png)](assets/monitor-tutorial.mp4)
+<video src="assets/monitor-tutorial.mp4" poster="assets/monitor-tutorial.png" controls width="100%"></video>
 
-Video tutorial (57 s). Click the image to open it. Full docs: [claude-monitor](https://github.com/rolfhelder/claude-monitor).
+Video tutorial (57 s). [Download the video](assets/monitor-tutorial.mp4) if it doesn't play inline. Full docs: [claude-monitor](https://github.com/rolfhelder/claude-monitor).
 
 ## Issues
 
